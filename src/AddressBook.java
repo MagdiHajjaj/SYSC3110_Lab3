@@ -20,6 +20,9 @@ public class AddressBook {
     public int getBuddyCount() {
         return buddies.size();
     }
+    public int getBuddyCount2() {
+        return buddies.size();
+    }
 
 
     public static void main(String[] args){
