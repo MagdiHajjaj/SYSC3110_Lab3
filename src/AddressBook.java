@@ -17,6 +17,10 @@ public class AddressBook {
         buddies.remove(buddy);
     }
 
+    public int getBuddyCount() {
+        return buddies.size();
+    }
+
 
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "Carletons","141");
